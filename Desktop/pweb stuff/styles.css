@@ -1,0 +1,217 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #F4B350;
+    color: #555555;
+    font-family:'Lato','Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.skill-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.51)),url(images/Screen%20Shot%202018-10-08%20at%207.56.15%20PM.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.ghost{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.41),rgba(0, 0, 0, 0.51));
+    padding: 1px;
+}
+
+
+h1{
+    color: #fff;
+    font-size: 240%;
+    margin top: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h2{
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 100;
+    text-align: center;
+    align-content: center;
+}
+
+.quote{
+    color: #c9c9d4;
+    
+}
+.hero-text-box{
+    position: absolute;
+    width:1140px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s;
+    margin-right: 15px;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #cf6d17;
+}
+.btn-full{
+    background-color: #F4B350;
+    color: #fff;
+        
+}
+
+.btn-ghost{
+    border: 1px solid;
+    color: #F4B350;
+}
+
+.mbtn:link,
+.mbtn:visited{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+    margin-right: 15px;
+    width: 20%
+}
+
+.mbtn:hover,
+.mbtn:active{
+    background-color: #cf6d17;
+}
+
+
+.mbtn-ghost{
+    border: 3px solid;
+    color: #F4B350;
+}
+.soc-media{
+    color: #F4B350;
+    margin-left: 50px;
+    font-size: 40px;
+    text-indent: 50;
+    
+}
+
+.soc-media:hover,
+.soc-media:active{
+    color: #cf6d17;
+}
+
+.work-section-features{
+    margin-top: 7%;
+   margin-bottom: 7%; 
+    color: black;   
+}
+
+.about-me-section{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: black;
+}
+
+.section-common{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: black;
+}
+.date{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.expanded{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+/* SKILLS */
+
+.skills{
+    text-align: center;
+    width: 50%;
+    position: : relative;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(255,255,255,255,0.1);
+    font-size: 15px;
+    
+}
+
+.skills h3{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.skills .percent{
+    float: right;
+    
+}
+
+.skills .bar{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: white;
+    margin: 15px 0 10px;
+}
+
+.skills .bar .progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: black;
+}
+
+.skills .bar .progress:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: black;
+}
