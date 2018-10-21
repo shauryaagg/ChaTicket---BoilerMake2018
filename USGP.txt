@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5bcbf2b91c9d440000e38f6e"},"raceName":"United States Grand Prix","Location":"Circuit of the Americas, Austin, Texas, United States of America","Tickets":[{"$numberInt":"250"},{"$numberInt":"500"},{"$numberInt":"1000"},{"$numberInt":"2000"},{"$numberInt":"5000"}]}

@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5bcbf2d41c9d440000e38f6f"},"raceName":"Mexican Grand Prix","Location":"Autódromo Hermanos Rodríguez, Mexico City, Mexico","Tickets":[{"$numberInt":"250"},{"$numberInt":"500"},{"$numberInt":"1000"},{"$numberInt":"2000"},{"$numberInt":"5000"}]}
