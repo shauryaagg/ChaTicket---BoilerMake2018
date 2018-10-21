@@ -6,6 +6,25 @@
 </head>
 
 <body>
-  <p onclick="searchEvents(['','','','','','','','',''])">Click here!!!!!!</p>
+  <p id="uai">Click here!!!!!!</p>
   <h1 id="spec"></h1>
+  <!-- <?php
+    for ($i = 0; $i < 10; $i++) {
+      echo "<p id='event".$i."'></p>";
+    }
+  ?> -->
+  <p id="event1"></p>
+  <p id="event2"></p>
+  <p id="event3"></p>
+  <p id="event4"></p>
+  <p id="event5"></p>
+  <p id="event6"></p>
+  <p id="event7"></p>
+  <p id="event8"></p>
+  <p id="event9"></p>
+  <p id="event0"></p>
+  <script>
+    let array = ["nfl", "nfl", "", "", "", "", "", "", "", ""];
+    document.getElementById("uai").addEventListener("click", searchEvents(array), false);
+  </script>
 </body>
