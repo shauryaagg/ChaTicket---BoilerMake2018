@@ -1,1 +1,1 @@
-Chatbot that combines generative and selective intelligence to help book tickets to events easily. Currently only supports tickets to concerts and F-1 races.
+Chatbot that combines generative and selective intelligence to help book tickets to events easily. Currently only supports tickets to concerts and F-1 races. Front-end made in Angular 6, and back-end in Node.js
